@@ -18,7 +18,7 @@ const Client = ({sendData,demande}) => {
     }
     const handelClick = () =>{
         sendData(clientRequest)
-        setData(" ")
+        
 
     }
     return (
