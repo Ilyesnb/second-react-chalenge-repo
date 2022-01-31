@@ -25,3 +25,11 @@ p{
   font-size: 20px;
 
 }
+.mur{
+  border-left: 7px solid grey;
+  height: 250px;
+ 
+  display: inline-block;
+  margin-top: 80px;
+  border-radius: 50px;
+}
