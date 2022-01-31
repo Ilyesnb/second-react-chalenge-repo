@@ -26,9 +26,8 @@ p{
 
 }
 .mur{
-  border-left: 7px solid grey;
+  border-left: 7px solid rgb(71, 70, 70);
   height: 250px;
- 
   display: inline-block;
   margin-top: 80px;
   border-radius: 50px;
