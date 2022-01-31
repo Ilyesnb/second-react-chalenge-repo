@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 const Client = ({sendData,demande}) => {
-    const [data, setData] = useState("")
+    const [data, setData] = useState(" ")
     const clientRequest = () =>{
         if(data==="café"){
             return "voilà votre demande café"
         }else if(data==="expresso"){
             return "voilà votre demande expresso"
-        }else if(data=="cappucino"){
+        }else if(data==="cappucino"){
             return "voilà votre demande cappucino"
         }else if(data==="iced"){
             return"voilà votre demande iced"
@@ -14,12 +14,9 @@ const Client = ({sendData,demande}) => {
     }
     const handelChange = (event) =>{
         setData(event.target.value)
-
     }
     const handelClick = () =>{
         sendData(clientRequest)
-        
-
     }
     return (
         <div className="container">
