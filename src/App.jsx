@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Client sendData={(m)=>{setMsg(m)}} demande={msg} />
-      <div className='mur'/>
+      <div className="mur"/>
       <Menu/>
      </div>
   )

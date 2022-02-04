@@ -6,13 +6,13 @@
 }
 .bottun{
   display: flex;
-  margin-top: 30px;
-  margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 40px;
   padding-top: 7px;
   padding-bottom: 7px;
-  
- 
-  
+  border-style: solid;
+  border-radius: 15px;
+  cursor: pointer;
 }
 li{
   font-size: 20px;
